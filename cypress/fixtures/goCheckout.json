@@ -1,0 +1,4 @@
+{
+    "goToChart": ".button-container > .button-medium > span",
+    "productAddedOkMsg": ".layer_cart_product > h2"
+}

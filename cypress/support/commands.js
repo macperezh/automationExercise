@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('searchProduct', (product)=>{
+    cy.fixture('index').then((index)=>{
+        cy.get(index.searchBox).type(product);
+        cy.get(index.searchButton).click();
+    })
+})
+
+Cypress.Commands.add('login', (email, password) => { 
+    cy.fixture('authentication').then((authentication)=>{
+        cy.get(authentication.email).type('clautests@gmail.com');
+        cy.get(authentication.passwd).type('Test98765');
+        cy.get(authentication.signInButton).click();
+    })
+})

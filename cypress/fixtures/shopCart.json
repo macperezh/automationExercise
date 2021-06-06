@@ -1,0 +1,4 @@
+{
+    "checkoutButton": ".cart_navigation > .button > span",
+    "cartTitle": "#cart_title"
+}

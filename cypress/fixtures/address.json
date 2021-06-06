@@ -1,0 +1,4 @@
+{
+    "checkoutButton": ".cart_navigation > .button > span",
+    "myAddressDelivery": "#address_delivery > .address_firstname"
+}

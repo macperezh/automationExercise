@@ -1,0 +1,4 @@
+{
+    "confirmOrderButton": "#cart_navigation > .button > span",
+    "okProcessMsg": ".cheque-indent > .dark"
+}

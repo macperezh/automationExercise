@@ -1,0 +1,5 @@
+{
+    "serviceAgreementCheck": "#cgv",
+    "checkoutButton": ".cart_navigation > .button > span",
+    "shippingMessage": ".page-heading"
+}
